@@ -1,2 +1,0 @@
-print("oss")
-print("oss")
