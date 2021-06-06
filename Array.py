@@ -1,1 +1,2 @@
 print("oss")
+print("oss")
