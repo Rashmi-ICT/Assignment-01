@@ -23,6 +23,8 @@ class StackLinked:
     def __init__(self):
         self.head = None
 
+
+
     # print out  all the elements
     def display(self):
         # Node current will point to head
@@ -30,10 +32,13 @@ class StackLinked:
         while current is not None:
             print(" PUSH IN  >>>  ", current.data)
 
-            Node = current.next
+            current= current.next
 
-    # function to display total no. of elements
+
+
+    # The function that returns the size of the linked list
     def size(self):
+        # Node current will point to head
         current = self.head
         count = 0
         while current is not None:
@@ -41,10 +46,15 @@ class StackLinked:
             count = count + 1
 
         return count
+    # This function will return the size of the linked list.
+
+
 
     # function to push an element in the stack
     def push(self, data):
+        # allocate node to new element
         newNode = Node(data)
+        # make new node as head
         newNode.next = self.head
         self.head = newNode
 
