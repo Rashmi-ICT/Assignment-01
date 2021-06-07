@@ -34,3 +34,15 @@ class StackLinked:
 
             Node = Node.next
 
+
+
+    # function to display total no. of elements
+    def size(self):
+        Node = self.head
+        count = 0
+        while Node is not None:
+            Node = Node.next
+            count = count + 1
+
+        return count
+
