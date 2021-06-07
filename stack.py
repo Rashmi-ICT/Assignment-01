@@ -30,7 +30,7 @@ class StackLinked:
     def display(self):
         Node = self.head
         while Node is not None:
-            print("push in  >>>  ", Node.data)
+            print(" PUSH IN  >>>  ", Node.data)
 
             Node = Node.next
 
@@ -62,17 +62,17 @@ class StackLinked:
         if not self.isEmpty():
             return self.head.data
         else:
-            print("The stack is empty")
+            print("THE STACK IS EMPTY")
             return -1
 
 
     # function to pop an element from the stack
     def pop(self):
         if self.size() == 0:
-            print('all elements are popped')
+            print('ALL ELEMENTS ARE POPPED')
         else:
 
-            print('popped successfully >>> ', self.peek())
+            print('SUCCESSFULLY POPPED >>> ', self.peek())
             self.head = self.head.next
 
 
