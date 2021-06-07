@@ -46,3 +46,10 @@ class StackLinked:
 
         return count
 
+    # function to push an element in the stack
+    def push(self, data):
+        newNode = Node(data)
+        newNode.next = self.head
+        self.head = newNode
+
+
