@@ -10,8 +10,16 @@
 
 
 # Class to create nodes of linked list
+# initialize constructor
+
 class Node:
     def __init__(self, data=None):
         self.data = data
         self.next = None
 
+
+# head is default NULL
+
+class StackLinked:
+    def __init__(self):
+        self.head = None
