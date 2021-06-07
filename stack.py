@@ -53,3 +53,7 @@ class StackLinked:
         self.head = newNode
 
 
+
+    def isEmpty(self):
+        return self.head is None
+
