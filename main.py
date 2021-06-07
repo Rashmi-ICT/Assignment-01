@@ -12,3 +12,20 @@ print("------------------------------------\n")
 print("=====================================")
 stack.peek()
 print("=====================================\n")
+
+
+
+print("------------------------------------")
+print("-\t\t\"PUSH ELEMENT \"            -")
+print("------------------------------------\n")
+
+#Add nodes to the list
+stack.push("rashmi")
+stack.push("saman")
+stack.push("kamal")
+stack.push("sunimal")
+
+#Displays the nodes present in the list
+stack.display()
+
+
