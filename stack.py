@@ -57,3 +57,11 @@ class StackLinked:
     def isEmpty(self):
         return self.head is None
 
+
+    def peek(self):
+        if not self.isEmpty():
+            return self.head.data
+        else:
+            print("The stack is empty")
+            return -1
+
