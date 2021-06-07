@@ -29,3 +29,10 @@ stack.push("sunimal")
 stack.display()
 
 
+
+print("\n\n=====================================")
+print("\tTop element is >>> ", stack.peek())
+print("=====================================\n")
+
+
+
