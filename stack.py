@@ -23,3 +23,14 @@ class Node:
 class StackLinked:
     def __init__(self):
         self.head = None
+
+
+
+    # function to show all the elements
+    def display(self):
+        Node = self.head
+        while Node is not None:
+            print("push in  >>>  ", Node.data)
+
+            Node = Node.next
+
