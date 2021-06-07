@@ -7,3 +7,11 @@
 6. The method pop returns the data of the node at the front of the linked list and removes the node. It returns None if there are no nodes.
 7. Create an instance of Stack and present a menu to the user to perform operations on the stack.
 """
+
+
+# Class to create nodes of linked list
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
+
