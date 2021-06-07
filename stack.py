@@ -50,7 +50,7 @@ class StackLinked:
 
 
 
-    # function to push an element in the stack
+    # add to element in the stack
     def push(self, data):
         # allocate node to new element
         newNode = Node(data)
@@ -58,8 +58,13 @@ class StackLinked:
         newNode.next = self.head
         self.head = newNode
 
+
+    # if the head value is null, then the stack is empty, otherwise it is not.
     def isEmpty(self):
         return self.head is None
+
+
+
 
     def peek(self):
         if not self.isEmpty():
