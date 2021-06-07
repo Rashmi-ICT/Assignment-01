@@ -65,7 +65,7 @@ class StackLinked:
 
 
 
-
+    # The peek() method will show us the 1st value in our stack
     def peek(self):
         if not self.isEmpty():
             return self.head.data
@@ -73,7 +73,8 @@ class StackLinked:
             print("THE STACK IS EMPTY")
             return -1
 
-    # function to pop an element from the stack
+
+    #  Utility function to pop a top element from the stack
     def pop(self):
         if self.size() == 0:
             print('ALL ELEMENTS ARE POPPED')
