@@ -65,3 +65,14 @@ class StackLinked:
             print("The stack is empty")
             return -1
 
+
+    # function to pop an element from the stack
+    def pop(self):
+        if self.size() == 0:
+            print('all elements are popped')
+        else:
+
+            print('popped successfully >>> ', self.peek())
+            self.head = self.head.next
+
+
