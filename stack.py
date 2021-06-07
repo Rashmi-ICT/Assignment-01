@@ -24,21 +24,22 @@ class StackLinked:
     def __init__(self):
         self.head = None
 
-    # the liked list class a method for printing all of the nodes on the list.
+
     # print out  all the elements
     def display(self):
-        Node = self.head
-        while Node is not None:
-            print(" PUSH IN  >>>  ", Node.data)
+        # Node current will point to head
+        current = self.head
+        while  current is not None:
+            print(" PUSH IN  >>>  ",  current.data)
 
-            Node = Node.next
+            Node =  current.next
 
     # function to display total no. of elements
     def size(self):
-        Node = self.head
+        current = self.head
         count = 0
-        while Node is not None:
-            Node = Node.next
+        while  current is not None:
+            current =  current.next
             count = count + 1
 
         return count
