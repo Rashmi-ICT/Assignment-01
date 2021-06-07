@@ -18,28 +18,26 @@ class Node:
         self.next = None
 
 
-# head is default NULL
-# create head
+# Represent the head singly  linked list
 class StackLinked:
     def __init__(self):
         self.head = None
-
 
     # print out  all the elements
     def display(self):
         # Node current will point to head
         current = self.head
-        while  current is not None:
-            print(" PUSH IN  >>>  ",  current.data)
+        while current is not None:
+            print(" PUSH IN  >>>  ", current.data)
 
-            Node =  current.next
+            Node = current.next
 
     # function to display total no. of elements
     def size(self):
         current = self.head
         count = 0
-        while  current is not None:
-            current =  current.next
+        while current is not None:
+            current = current.next
             count = count + 1
 
         return count
