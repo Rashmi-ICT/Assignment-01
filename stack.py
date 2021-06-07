@@ -66,6 +66,7 @@ class StackLinked:
 
 
     # The peek() method will show us the 1st value in our stack
+    # the stack. Raise Empty exception if the stack is empty.
     def peek(self):
         if not self.isEmpty():
             return self.head.data
