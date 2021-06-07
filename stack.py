@@ -19,22 +19,19 @@ class Node:
 
 
 # head is default NULL
-
+# create head
 class StackLinked:
     def __init__(self):
         self.head = None
 
-
-
-    # function to show all the elements
+    # the liked list class a method for printing all of the nodes on the list.
+    # print out  all the elements
     def display(self):
         Node = self.head
         while Node is not None:
             print(" PUSH IN  >>>  ", Node.data)
 
             Node = Node.next
-
-
 
     # function to display total no. of elements
     def size(self):
@@ -52,11 +49,8 @@ class StackLinked:
         newNode.next = self.head
         self.head = newNode
 
-
-
     def isEmpty(self):
         return self.head is None
-
 
     def peek(self):
         if not self.isEmpty():
@@ -64,7 +58,6 @@ class StackLinked:
         else:
             print("THE STACK IS EMPTY")
             return -1
-
 
     # function to pop an element from the stack
     def pop(self):
@@ -74,5 +67,3 @@ class StackLinked:
 
             print('SUCCESSFULLY POPPED >>> ', self.peek())
             self.head = self.head.next
-
-
