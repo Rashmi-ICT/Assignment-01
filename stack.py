@@ -75,7 +75,9 @@ class StackLinked:
             return -1
 
 
-    #  Utility function to pop a top element from the stack
+
+    # Remove and return the element from the top of the stack
+    # (i.e., LIFO). Raise exception if the stack is empty.
     def pop(self):
         if self.size() == 0:
             print('ALL ELEMENTS ARE POPPED')
