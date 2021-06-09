@@ -18,7 +18,7 @@ class Node:
         self.next = None
 
 
-# Represent the head singly  linked list
+# Represent the head singly  linked list#
 class StackLinked:
     def __init__(self):
         self.head = None

@@ -19,7 +19,7 @@ print("------------------------------------")
 print("-\t\t\"PUSH ELEMENT \"            -")
 print("------------------------------------\n")
 
-#Add nodes to the list
+#Add nodes to the list#
 stack.push("rashmi")
 stack.push("saman")
 stack.push("kamal")
