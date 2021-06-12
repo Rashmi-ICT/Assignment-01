@@ -26,5 +26,11 @@ class stack:
             print("er removing the element of stack",self.stack )
 
 
+    def top(self):
+        if len(self.stack) == 0:
+            print("stack is empty")
+
+        else:
+            print("top value is ", self.stack[len(self.stack) - 1])
 
 
