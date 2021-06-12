@@ -10,7 +10,7 @@ mystack.push(20)
 mystack.push(30)
 mystack.push(40)
 
-
+mystack.top()
 
 x = mystack.size()
 print("stack LENGTH IS ", x)
