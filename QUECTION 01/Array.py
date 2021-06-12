@@ -40,6 +40,12 @@ class stack:
             print("stack not empty")
 
 
+    def isFull(self):
+        if len(self.stack) == self.limit:
+            print("stack full")
+        else:
+            print("stack not full")
+
 
 
 
