@@ -12,3 +12,9 @@ class stack:
             print("PUSH  ELEMENT IS >>", data)
 
 
+        else:
+            print("STACK IS FULL")
+
+
+
+
