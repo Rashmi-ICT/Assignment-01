@@ -47,5 +47,7 @@ class stack:
             print("stack not full")
 
 
+    def size(self):
+        return len(self.stack)
 
 
