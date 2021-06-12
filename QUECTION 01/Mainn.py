@@ -14,3 +14,7 @@ mystack.push(40)
 
 x = mystack.size()
 print("stack LENGTH IS ", x)
+
+
+mystack.pop()
+
