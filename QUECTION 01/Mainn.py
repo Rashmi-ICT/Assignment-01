@@ -18,3 +18,9 @@ print("stack LENGTH IS ", x)
 
 mystack.pop()
 
+
+x = mystack.size()
+print("stack LENGTH IS ", x)
+
+
+
