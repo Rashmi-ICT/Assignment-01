@@ -30,5 +30,12 @@ mystack.pop()
 mystack.pop()
 
 
+mystack.top()
+
+
+x = mystack.size()
+print("stack LENGTH IS")
+
+
 
 
