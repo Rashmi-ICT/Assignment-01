@@ -33,4 +33,13 @@ class stack:
         else:
             print("top value is ", self.stack[len(self.stack) - 1])
 
+    def isEmpty(self):
+        if len(self.stack) == 0:
+            print("stack is empty")
+        else:
+            print("stack not empty")
+
+
+
+
 
