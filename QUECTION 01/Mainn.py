@@ -25,7 +25,9 @@ print("stack LENGTH IS ", x)
 
 mystack.isFull()
 
-
+mystack.pop()
+mystack.pop()
+mystack.pop()
 
 
 
