@@ -1,13 +1,3 @@
-"""
-1. Create a class Node with instance variables data and next.
-2. Create a class Stack with instance variable head.
-3. The variable head points to the first element in the linked list.
-4. Define methods push and pop inside the class Stack.
-5. The method push adds a node at the front of the linked list.
-6. The method pop returns the data of the node at the front of the linked list and removes the node. It returns None if there are no nodes.
-7. Create an instance of Stack and present a menu to the user to perform operations on the stack.
-"""
-
 
 # Class to create nodes of linked list
 # initialize constructor#
@@ -31,7 +21,6 @@ class StackLinked:
         current = self.head
         while current is not None:
             print(" PUSH IN  >>>  ", current.data)
-
             current= current.next
 
 
@@ -44,7 +33,6 @@ class StackLinked:
         while current is not None:
             current = current.next
             count = count + 1
-
         return count
     # This function will return the size of the linked list.
 
@@ -83,5 +71,5 @@ class StackLinked:
             print('ALL ELEMENTS ARE POPPED')
         else:
 
-            print('SUCCESSFULLY POPPED >>> ', self.peek())
+            print(' POPPED  ELEMENT >>> ', self.peek())
             self.head = self.head.next##
