@@ -23,6 +23,9 @@ x = mystack.size()
 print("stack LENGTH IS ", x)
 
 
+mystack.isFull()
+
+
 
 
 
