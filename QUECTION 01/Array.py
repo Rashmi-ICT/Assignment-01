@@ -15,6 +15,16 @@ class stack:
         else:
             print("STACK IS FULL")
 
+    def pop(self):
+        if len(self.stack) == 0:
+            print("STACK IS EMPTY")
+
+        else:
+            find_Pop= (len(self.stack) - 1)
+            self.stack = np.delete(self.stack,len(self.stack) - 1)
+            print("succusesfully popped element is >> ",find_Pop)
+            print("er removing the element of stack",self.stack )
+
 
 
 
