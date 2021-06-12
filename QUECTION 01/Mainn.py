@@ -65,5 +65,6 @@ x = mystack.size()
 print("STACK LENGTH IS ", x)
 print("===================================================\n")
 
-
+mystack.push(50)
+mystack.push(60)
 
