@@ -14,17 +14,6 @@ class StackLinked:
         self.head = None
 
 
-
-    # print out  all the elements
-    def display(self):
-        # Node current will point to head
-        current = self.head
-        while current is not None:
-            print(" PUSH IN  >>>  ", current.data)
-            current= current.next
-
-
-
     # The function that returns the size of the linked list
     def size(self):
         # Node current will point to head
@@ -45,6 +34,7 @@ class StackLinked:
         # make new node as head
         newNode.next = self.head
         self.head = newNode
+        print(" PUSHED DATA : ", data)
 
 
     # if the head value is null, then the stack is empty, otherwise it is not.
@@ -72,4 +62,4 @@ class StackLinked:
         else:
 
             print(' POPPED  ELEMENT >>> ', self.peek())
-            self.head = self.head.next##
+            self.head = self.head.next

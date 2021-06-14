@@ -25,8 +25,6 @@ stack.push("saman")
 stack.push("kamal")
 stack.push("sunimal")
 
-#Displays the nodes present in the list
-stack.display()
 
 
 
@@ -48,13 +46,6 @@ print("=====================================")
 print("\n=====================================")
 print("\t stack size is >> ", stack.size())
 print("=====================================\n")
-
-
-
-print("\n=====================================")
-stack.display()
-print("=====================================")
-
 
 
 print("\n=====================================")
