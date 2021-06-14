@@ -24,6 +24,7 @@ stack.push("rashmi")
 stack.push("saman")
 stack.push("kamal")
 stack.push("sunimal")
+stack.push("sumana dissanayaka")
 
 
 
@@ -71,3 +72,13 @@ print("\n=====================================")
 stack.pop()
 print("=====================================")
 
+
+print("\n=====================================")
+print("\t stack size is >> ", stack.size())
+print("=====================================\n")
+
+
+
+print("\n=====================================")
+stack.pop()
+print("=====================================")
