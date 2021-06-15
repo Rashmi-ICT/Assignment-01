@@ -28,7 +28,7 @@ class stack:
         else:
             find_Pop=  (self.stack[len(self.stack) - 1])  # find the drop element
             self.stack = np.delete(self.stack,len(self.stack) - 1) # then popped
-            print("succusesfully popped element is >> ",find_Pop)
+            print("successfully popped element is >> ",find_Pop)
 
             print("after removing the element of stack",self.stack ) # after removing the element of stack
             print("\n")
