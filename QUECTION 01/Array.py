@@ -20,6 +20,8 @@ class stack:
         else:
             print("STACK IS FULL")
 
+
+
     # Remove  the element from the stack
     def pop(self):
         if len(self.stack) == 0:    # check stack length
@@ -33,6 +35,10 @@ class stack:
             print("after removing the element of stack",self.stack ) # after removing the element of stack
             print("\n")
 
+
+
+
+
     # the element from the top of the stack
     def top(self):
         if len(self.stack) == 0:
@@ -41,12 +47,18 @@ class stack:
         else:
             print("top value is ", self.stack[len(self.stack) - 1])
 
+
+
+
     # if the stack len  is  0 , then the stack is empty, otherwise it is not.
     def isEmpty(self):
         if len(self.stack) == 0:
             print("stack is empty")
         else:
             print("stack not empty")
+
+
+
 
     # if the stack len  is  equal limit  , then the stack is full, otherwise it is not full.
     def isFull(self):
