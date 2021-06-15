@@ -6,8 +6,8 @@ stack = StackLinked()
 
 
 print("------------------------------------")
-print("-\t\t\"EMPTY STACK LIST \"        -")
-print("------------------------------------\n")
+print("-\t\t\"EMPTY STACK LIST \"        - \n\n")
+
 
 
 stack.peek()
@@ -19,12 +19,13 @@ print("------------------------------------")
 print("-\t\t\"PUSH ELEMENT \"            -")
 print("------------------------------------\n")
 
-#Add nodes to the list#
+
+
 stack.push("rashmi")
 stack.push("saman")
 stack.push("kamal")
 stack.push("sunimal")
-stack.push("sumana dissanayaka")
+stack.push("samana dissanayaka")
 
 
 
@@ -81,4 +82,8 @@ print("=====================================\n")
 
 print("\n=====================================")
 stack.pop()
-print("=====================================")
+print("=====================================\n\n")
+
+
+print("============isEMPTY RESULT=================")
+print(stack.isEmpty())

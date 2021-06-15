@@ -8,7 +8,7 @@ class Node:
         self.next = None
 
 
-# Represent the head singly  linked list#
+# Represent the head singly  linked list
 class StackLinked:
     def __init__(self):
         self.head = None
@@ -37,9 +37,12 @@ class StackLinked:
         print(" PUSHED DATA : ", data)
 
 
+
+
     # if the head value is null, then the stack is empty, otherwise it is not.
     def isEmpty(self):
         return self.head is None
+
 
 
 
