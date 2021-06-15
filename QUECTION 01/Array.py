@@ -1,7 +1,7 @@
 import numpy as np
 
 
-# initialize constructor#
+# initialize constructor
 
 class stack:
     def __init__(self, limit=10):
